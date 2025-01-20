@@ -31,6 +31,7 @@ model User {
  username String @unique
  password String
  role Role @default(USER)
+ foto_profile String
 }
 
 enum Role {
